@@ -1,0 +1,4 @@
+# assumes that we have gnu coreutils installed:
+
+#gls uses LS_COLORS instead of LSCOLORS.  See .oh-my-zsh/custom/dircolors
+alias ls='gls --color'
