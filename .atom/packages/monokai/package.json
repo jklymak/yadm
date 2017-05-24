@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+        "spec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/apm-install-dir-117010-1478-1tqj50j"
+    ]
+  ],
+  "_from": "../d-117010-1478-8v4ezc/package.tgz",
+  "_id": "monokai@0.18.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/monokai",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+    "spec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117010-1478-8v4ezc/package.tgz",
+  "_shasum": "06b7839212da0716953ebabc85f5f449aeca4f16",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117010-1478-8v4ezc/package.tgz",
+  "_where": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/apm-install-dir-117010-1478-1tqj50j",
+  "bugs": {
+    "url": "https://github.com/kevinsawicki/monokai/issues"
+  },
+  "dependencies": {},
+  "description": "A monokai theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "homepage": "https://github.com/kevinsawicki/monokai#readme",
+  "license": "MIT",
+  "name": "monokai",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Monokai theme\n\nA monokai syntax theme for Atom.\n\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n\n![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsawicki/monokai.git"
+  },
+  "theme": "syntax",
+  "version": "0.18.0"
+}
