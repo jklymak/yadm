@@ -1,1 +1,0 @@
-/Users/jklymak/.oh-my-zsh/custom/paths.zsh##
