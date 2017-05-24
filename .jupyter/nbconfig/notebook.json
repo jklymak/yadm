@@ -1,0 +1,21 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "collapsible_headings/main": true,
+    "hide_input/main": true,
+    "toc2/main": true,
+    "gist_it/main": true,
+    "snippets_menu/main": true,
+    "scratchpad/main": true
+  },
+  "snippets": {
+    "include_submenu": {
+      "sympy": false,
+      "pandas": false,
+      "astropy": false,
+      "h5py": false,
+      "numba": false
+    }
+  }
+}
