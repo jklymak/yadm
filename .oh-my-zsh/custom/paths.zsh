@@ -1,3 +1,1 @@
-export PATH=$HOME/anaconda3/bin:$PATH
-export PYTHONPATH=/Users/jklymak/python/lib/:/Users/jklymak/codas/programs/:${PYTHONPATH}
-
+/Users/jklymak/.oh-my-zsh/custom/paths.zsh##
