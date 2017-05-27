@@ -52,7 +52,7 @@ ZSH_THEME="jreese"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python brew vcsh zsh-syntax-highlighting)
+plugins=(git python brew)
 
 source $ZSH/oh-my-zsh.sh
 
