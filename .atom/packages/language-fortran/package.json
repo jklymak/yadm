@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+        "spec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/apm-install-dir-117426-18711-udgju3.cqo9nng66r"
+    ]
+  ],
+  "_from": "../d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+  "_id": "language-fortran@2.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-fortran",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+    "spec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+  "_shasum": "fe3596d84b77ec4703b6b39bfac22a8c3a83c344",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/d-117426-18711-2tr6uu.xaivx11yvi/package.tgz",
+  "_where": "/private/var/folders/vy/zxjl84j90ws6d1k09_rhst0w0000gn/T/apm-install-dir-117426-18711-udgju3.cqo9nng66r",
+  "activationCommands": {
+    "atom-workspace": "language-fortran:toggleComment"
+  },
+  "bugs": {
+    "url": "https://github.com/dparkins/language-fortran/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax highlighting for Fortran in atom ",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/dparkins/language-fortran#readme",
+  "keywords": [
+    "grammar",
+    "fortran"
+  ],
+  "license": "MIT",
+  "main": "./lib/language-fortran",
+  "name": "language-fortran",
+  "optionalDependencies": {},
+  "readme": "# language-fortran package\n\nSyntax highlighting for Fortran in Atom. Converted from the [Textmate bundle](https://github.com/textmate/fortran.tmbundle).\n\nThe default grammars are `Fortran - Fixed Form` for files with extensions  `f,F,f77,F77,for,FOR,fpp,FPP` and `Fortran - Free Form` for files with extensions `f90,F90,f95,F95,f03,F03,f08,F08`. `Fortran - Fixed Form` is aimed more at fixed form Fortran and `Fortran - Free Form` is aimed more towards free form Fortran.\n\nThere are two other grammars that are available, `Fortran - Punchcard` and `Fortran - Modern`, these two grammars are older than the current default langauges and were developed from the original [Textmate bundle](https://github.com/textmate/fortran.tmbundle). `Fortran - Modern` is aimed at free form Fortran code and is fairly complete. `Fortran - Punchcard` is aimed at fixed form Fortran code and does not contain rules for more modern Fortran language elements. To access these additional grammars either select them manually via `ctrl-shift-L` or modify your `init.coffee` file to associate the desired grammar with the desired file extension as described [here](https://discuss.atom.io/t/force-grammar-usage-for-file-extension/15154/6?u=tomedunn).\n\nFor example you can associate the `Fortran - Punchcard` grammar with the file extension `.f` files by modifying your `init.coffee` to include the following lines\n\n```coffee\npath = require 'path'\n\natom.workspace.observeTextEditors (editor) ->\n    if path.extname(editor.getPath()) in [\".f\"]\n        editor.setGrammar(atom.grammars.grammarForScopeName('source.fortran.punchcard'))\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dparkins/language-fortran.git"
+  },
+  "version": "2.1.0"
+}

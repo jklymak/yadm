@@ -1,0 +1,1 @@
+{".editor[data-grammar='source fortran fixed']:not([mini])":{"cmd-/":"language-fortran:toggleComment"}}

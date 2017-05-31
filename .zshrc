@@ -87,3 +87,4 @@ fi
 
 export LSCOLORS="ahfxcxdxbxegedabagacad"
 setopt EXTENDED_GLOB
+autoload -U zmv

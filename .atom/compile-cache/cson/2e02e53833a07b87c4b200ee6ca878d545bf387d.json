@@ -1,0 +1,1 @@
+{"menu":[{"label":"Packages","submenu":[{"label":"Remote Atom","submenu":[{"label":"Start Server","command":"remote-atom:start-server"},{"label":"Stop Server","command":"remote-atom:stop-server"}]}]}]}
