@@ -1,1 +1,0 @@
-{".platform-darwin atom-text-editor[data-grammar~=fortran]:not(.mini)":{"alt-cmd-g":"autocomplete-fortran:go-declaration"},".platform-linux atom-text-editor[data-grammar~=fortran]:not(.mini)":{"ctrl-alt-g":"autocomplete-fortran:go-declaration"},".platform-win32 atom-text-editor[data-grammar~=fortran]:not(.mini)":{"ctrl-alt-g":"autocomplete-fortran:go-declaration"}}
